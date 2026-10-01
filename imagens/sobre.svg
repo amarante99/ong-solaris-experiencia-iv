@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+<title id="t">Grupo de pessoas em ação comunitária</title>
+<desc id="d">Ilustração vetorial criada para o projeto acadêmico ONG Solaris.</desc>
+<rect width="800" height="500" rx="24" fill="#E5F5EF"/>
+
+<circle cx="160" cy="150" r="75" fill="#078B72"/><circle cx="400" cy="125" r="70" fill="#F3B51B"/>
+<circle cx="640" cy="160" r="80" fill="#2FA58E"/><circle cx="270" cy="330" r="78" fill="#9DD8C8"/>
+<circle cx="535" cy="335" r="82" fill="#078B72"/>
+<path d="M105 235 Q160 195 215 235 M345 205 Q400 165 455 205 M580 245 Q640 200 700 245 M215 410 Q270 365 325 410 M480 420 Q535 370 590 420" fill="none" stroke="#073D43" stroke-width="28" stroke-linecap="round"/>
+
+</svg>

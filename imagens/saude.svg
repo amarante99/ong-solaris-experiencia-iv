@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+<title id="t">Ilustração de saúde</title>
+<desc id="d">Ilustração vetorial criada para o projeto acadêmico ONG Solaris.</desc>
+<rect width="800" height="500" rx="24" fill="#E5F5EF"/>
+
+<circle cx="400" cy="250" r="145" fill="#fff"/>
+<path d="M400 345 C360 305 280 260 280 205 C280 145 350 120 400 180 C450 120 520 145 520 205 C520 260 440 305 400 345Z" fill="#078B72"/>
+<path d="M350 225 H450 M400 175 V275" stroke="#fff" stroke-width="28" stroke-linecap="round"/>
+
+</svg>

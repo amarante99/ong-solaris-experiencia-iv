@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light" data-contrast="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ONG Solaris — aplicação web interativa e acessível desenvolvida com JavaScript.">
+  <meta name="theme-color" content="#073d43">
+  <title>ONG Solaris | Experiência Prática IV</title>
+  <link rel="icon" href="./imagens/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#app">Pular para o conteúdo principal</a>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand brand" href="#/inicio" data-route="/inicio" aria-label="ONG Solaris - início">
+          <img src="./imagens/logo.svg" width="42" height="42" alt="Logo da ONG Solaris">
+          <span>ONG Solaris</span>
+        </a>
+
+        <div class="nav-actions d-flex align-items-center gap-2 order-lg-3">
+          <button class="btn btn-sm btn-accessibility" type="button" id="themeToggle" aria-pressed="false" aria-label="Ativar modo escuro">
+            Modo escuro
+          </button>
+          <button class="btn btn-sm btn-accessibility" type="button" id="contrastToggle" aria-pressed="false" aria-label="Ativar alto contraste">
+            Alto contraste
+          </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse order-lg-2" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#/inicio" data-route="/inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#/projetos" data-route="/projetos">Projetos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#/diagnostico" data-route="/diagnostico">Diagnóstico</a></li>
+            <li class="nav-item"><a class="nav-link" href="#/voluntariado" data-route="/voluntariado">Voluntariado</a></li>
+            <li class="nav-item"><a class="nav-link" href="#/contato" data-route="/contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1" aria-live="polite" aria-busy="false"></main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">ONG Solaris — Experiência Prática IV</p>
+      <small>Aplicação demonstrativa com JavaScript, acessibilidade e Web Storage.</small>
+    </div>
+  </footer>
+
+  <div class="toast-container position-fixed bottom-0 end-0 p-3" aria-live="polite" aria-atomic="true">
+    <div id="appToast" class="toast" role="status" aria-live="polite" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto" id="toastTitle">Solaris</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Fechar aviso"></button>
+      </div>
+      <div class="toast-body" id="toastMessage"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

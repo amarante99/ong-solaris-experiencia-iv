@@ -1,0 +1,15 @@
+{
+  "name": "ong-solaris-experiencia-iv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ONG Solaris — Experiência Prática IV: versionamento, acessibilidade, otimização e deploy.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}

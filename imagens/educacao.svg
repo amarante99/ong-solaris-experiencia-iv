@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+<title id="t">Ilustração de educação</title>
+<desc id="d">Ilustração vetorial criada para o projeto acadêmico ONG Solaris.</desc>
+<rect width="800" height="500" rx="24" fill="#E5F5EF"/>
+
+<path d="M170 190 L400 90 L630 190 L400 290 Z" fill="#078B72"/>
+<path d="M255 225 V315 Q400 390 545 315 V225" fill="#9DD8C8"/>
+<path d="M400 290 V395" stroke="#073D43" stroke-width="16"/>
+<circle cx="650" cy="330" r="55" fill="#F3B51B"/><path d="M620 330h60M650 300v60" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+
+</svg>

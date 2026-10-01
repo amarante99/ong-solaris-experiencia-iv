@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+<title id="t">Ilustração de inclusão social</title>
+<desc id="d">Ilustração vetorial criada para o projeto acadêmico ONG Solaris.</desc>
+<rect width="800" height="500" rx="24" fill="#E5F5EF"/>
+
+<circle cx="400" cy="150" r="55" fill="#F3B51B"/><circle cx="235" cy="210" r="50" fill="#078B72"/><circle cx="565" cy="210" r="50" fill="#2FA58E"/>
+<path d="M400 220V385M320 300H480M400 385L330 440M400 385L470 440" stroke="#073D43" stroke-width="24" stroke-linecap="round"/>
+<path d="M235 270V370M180 320H290M235 370L190 425M235 370L280 425" stroke="#078B72" stroke-width="20" stroke-linecap="round"/>
+<path d="M565 270V370M510 320H620M565 370L520 425M565 370L610 425" stroke="#2FA58E" stroke-width="20" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+<title id="t">Sede da ONG Solaris</title>
+<desc id="d">Ilustração vetorial criada para o projeto acadêmico ONG Solaris.</desc>
+<rect width="800" height="500" rx="24" fill="#E5F5EF"/>
+
+<path d="M135 410V190L400 70L665 190V410Z" fill="#fff"/>
+<path d="M105 205L400 55L695 205" fill="none" stroke="#078B72" stroke-width="28" stroke-linejoin="round"/>
+<rect x="325" y="285" width="150" height="125" fill="#9DD8C8"/>
+<rect x="185" y="245" width="85" height="70" fill="#CDEDE4"/><rect x="530" y="245" width="85" height="70" fill="#CDEDE4"/>
+<circle cx="400" cy="155" r="42" fill="#F3B51B"/>
+<text x="400" y="470" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#073D43">ONG SOLARIS</text>
+
+</svg>
