@@ -1,9 +1,9 @@
 import { getDiagnoses, getVolunteer } from './storage.js';
 
 const projects = [
-  { title: 'Educação', image: './imagens/educacao.svg', text: 'Ações de apoio à aprendizagem e ampliação de oportunidades educacionais.' },
-  { title: 'Saúde', image: './imagens/saude.svg', text: 'Iniciativas de orientação, prevenção e acesso a informações de saúde.' },
-  { title: 'Inclusão Social', image: './imagens/inclusao.svg', text: 'Projetos que estimulam participação, autonomia e inclusão na comunidade.' }
+  { title: 'Educação', image: './educacao.svg', text: 'Ações de apoio à aprendizagem e ampliação de oportunidades educacionais.' },
+  { title: 'Saúde', image: './saude.svg', text: 'Iniciativas de orientação, prevenção e acesso a informações de saúde.' },
+  { title: 'Inclusão Social', image: './inclusao.svg', text: 'Projetos que estimulam participação, autonomia e inclusão na comunidade.' }
 ];
 
 export function renderInicio() {
@@ -21,7 +21,7 @@ export function renderInicio() {
             </div>
           </div>
           <div class="col-lg-5 text-center">
-            <img class="hero-visual" src="./imagens/hero.svg" width="800" height="500" alt="Ilustração representando cuidado e transformação social" fetchpriority="high" decoding="async">
+            <img class="hero-visual" src="./hero.svg" width="800" height="500" alt="Ilustração representando cuidado e transformação social" fetchpriority="high" decoding="async">
           </div>
         </div>
       </div>
